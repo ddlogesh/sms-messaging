@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Messaging</string>
+    <string name="search_messages">Search messages</string>
+    <string name="say_something">Say something…</string>
+</resources>

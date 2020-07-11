@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/timeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="center"
+        android:textColor="@color/white_70"
+        android:textSize="@dimen/_8ssp"
+        tools:text="Thurs, 10/06/20 12:20 PM" />
+
+    <LinearLayout
+        android:id="@+id/layoutLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ic_message_read_left_list_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/_12sdp">
+
+        <LinearLayout
+            android:id="@+id/titleLL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_bold"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                tools:text="Balance Update" />
+
+            <TextView
+                android:id="@+id/priceTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:background="@drawable/ic_red_bg"
+                android:fontFamily="@font/opensans_bold"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp"
+                tools:text="3,000.00" />
+        </LinearLayout>
+
+        <com.hendraanggrian.appcompat.widget.SocialTextView
+            android:id="@+id/messageTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11ssp"
+            app:hyperlinkColor="@color/orange_lt"
+            app:socialFlags="hyperlink"
+            tools:text="Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s Your credit card details must.com have been stolen and it’s " />
+
+    </LinearLayout>
+
+</LinearLayout>
